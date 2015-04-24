@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="AbstractEntryPoint">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.sombrainc.handler.AbstractEntryPoint' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/AbstractEntryPoint/greet" class="com.sombrainc.handler.server.GreetingServiceImpl" />
+
+</module>
