@@ -56,5 +56,10 @@ public abstract class AbstractEntryPoint implements EntryPoint {
 		});
 	}
 
+	/**
+	 * The entry point method, called automatically by loading a module that
+	 * declares an implementing class as an entry point. Must be used instead
+	 * <code>onModuleLoad()</code>.
+	 */
 	public abstract void onModuleLoad2();
 }
